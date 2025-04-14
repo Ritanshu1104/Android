@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Button to open the DatePickerDialog, centered horizontally and vertically -->
+    <Button
+        android:id="@+id/btnSelectDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Date"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <!-- TextView to display the selected date, centered horizontally below the button -->
+    <TextView
+        android:id="@+id/tvSelectedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selected Date will be shown here"
+        android:layout_below="@id/btnSelectDate"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>

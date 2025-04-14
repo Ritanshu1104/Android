@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<text xmlns:android="http://schemas.android.com/apk/res/android"
+    android:text="Hello World"
+    android:textSize="20sp"
+    android:textColor="#FFFFFF"
+    android:layout_gravity="center"/>
